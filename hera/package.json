@@ -4,14 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-	"start": "npm start",
-	"dev": "nodemon server.js"
+    "start": "npm start",
+    "dev": "nodemon server.js"
   },
   "author": "floss-order",
   "license": "ISC",
   "dependencies": {
     "configparser": "^0.3.9",
-    "ejs": "^3.1.6"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
