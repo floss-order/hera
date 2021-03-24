@@ -9,6 +9,7 @@
   "author": "floss-order",
   "license": "ISC",
   "dependencies": {
-    "configparser": "^0.3.9"
+    "configparser": "^0.3.9",
+    "ejs": "^3.1.6"
   }
 }
