@@ -1,0 +1,16 @@
+<form class="options">
+    <% swiperproxy.sections().forEach(section => { %>
+        <div>
+            <h2><%= section %></h2>
+            <ul>
+                <% for(let option in swiperproxy._sections[section]) { %>
+                    <li>
+                        <%= option %>
+                        <input type="text" name=<%= option %> id=<%= option %> value=<%= swiperproxy._sections[section][option] %> /> 
+                    </li>                
+                <% } %>
+            </ul>
+        </div>
+    <% }) %>
+    <button type="submit">Save</button>
+</form>
